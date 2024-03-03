@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #575252;
+    color: #333;
+  }
+  
+  #calendar {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #818575;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .month {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4CAF50;
+    color: #72b3ec;
+    border-radius: 5px;
+    padding: 5px 0;
+  }
+  
+  .weekday {
+    width: calc(100% / 7);
+    text-align: center;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    width: calc(100% / 7);
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .today {
+    background-color: #4CAF50;
+    color: #be64e2;
+    border-radius: 50%;
+  }
+  
+  .selected {
+    background-color: #FFC107;
+    color: #333;
+    border-radius: 50%;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .nav-buttons button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #4b6eb4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #c4e0c5;
+  }
+  
+  .year-input {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #b3d7b4;
+    padding: 10px;
+    border-radius: 5px;
+    color: #be64e2;
+  }
+  
+  .year-input input {
+    padding: 5px;
+    border: 1px solid #ad6a6a;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    color: bisque;
+    background-color: #FFC107;
+  }
+  
